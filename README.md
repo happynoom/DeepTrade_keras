@@ -1,5 +1,4 @@
 keras version of DeepTrade
-
 ===
 
 add two functions to keras library, first add to $PYTHON_DIR/dist-packages/keras/losses.py
