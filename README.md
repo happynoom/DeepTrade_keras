@@ -18,8 +18,10 @@ def relu_limited(x, alpha=0., max_value=1.):
 ```
 
 ## Experiment
-
+Train Loss:
 ![image](https://github.com/happynoom/DeepTrade_keras/blob/master/train_loss.png)
+
+Validation Loss:
 ![image](https://github.com/happynoom/DeepTrade_keras/blob/master/validation_loss.png)
 
 
