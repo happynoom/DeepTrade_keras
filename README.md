@@ -16,3 +16,10 @@ def relu_limited(x, alpha=0., max_value=1.):
     return K.relu(x, alpha=alpha, max_value=max_value)
 
 ```
+
+## Experiment
+
+![image](https://github.com/happynoom/DeepTrade_keras/blob/master/train_loss.png)
+![image](https://github.com/happynoom/DeepTrade_keras/blob/master/validation_loss.png)
+
+
