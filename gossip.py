@@ -82,8 +82,9 @@ def evaluate_model(model_path, code, input_shape=[30, 61]):
     print('test accuracy:', scores[1])
     pred = saved_wp.predict(test_set.images, 1024)
     cr = calculate_cumulative_return(test_set.labels, pred)
-    for i in cr:
-        print(i)
+    print("changeRate\tpositionAdvice\tprincipal\tcumulativeReturn")
+    for i in range(len(test_set.labels)):
+        print(str(test_set.labels[i]) + "\t" + str(pred[i]) + "\t" + str(cr[i] + 1.) + "\t" + str(cr[i]))
 
 
 def make_model(input_shape, nb_epochs=100, batch_size=128, lr=0.01, n_layers=1, n_hidden=16, rate_dropout=0.3):
