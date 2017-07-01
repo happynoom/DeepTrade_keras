@@ -121,7 +121,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         operation = sys.argv[1]
     if operation == "train":
-        make_model([30, 61], 3000, 512, lr=0.002)
+        make_model([30, 61], 3000, 512, lr=0.001)
     elif operation == "predict":
         evaluate_model("model.30.best", "000001")
     else:
