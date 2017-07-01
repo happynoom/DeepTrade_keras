@@ -19,10 +19,10 @@ def relu_limited(x, alpha=0., max_value=1.):
 
 ## Experiment
 Train Loss:
-![image](https://github.com/happynoom/DeepTrade_keras/blob/master/train_loss.png)
+![image](train_loss.png)
 
 Validation Loss:
-![image](https://github.com/happynoom/DeepTrade_keras/blob/master/validation_loss.png)
+![image](validation_loss.png)
 
 A LSTM model using Risk Estimation loss function for trades in market
 ===
