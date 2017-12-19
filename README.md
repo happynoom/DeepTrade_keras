@@ -17,9 +17,9 @@ def relu_limited(x, alpha=0., max_value=1.):
 
 ```
 
-## Liecence(版权声明)
+## Licence(版权声明)
 
-The author is Xiaoyu Fang from China. Please quot the source whenever you use it. This project has key update already. Contact happynoom@163.com to buy a liecence.
+The author is Xiaoyu Fang from China. Please quot the source whenever you use it. This project has key update already. Contact happynoom@163.com to buy a licence.
 
 
 开源版本对学术应用完全免费，使用时请引用出处；商业应用需要获得授权。另外，该项目已经有重大更新，后续版本的授权请联系：happynoom@163.com
