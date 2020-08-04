@@ -7,7 +7,7 @@ keras version of DeepTrade
 The author is Xiaoyu Fang from China. Please quot the source whenever you use it. This project has key update already. Contact happynoom@163.com to buy a licence.
 
 
-开源版本对学术应用完全免费，使用时请引用出处；商业应用需要获得授权。另外，该项目已经有重大更新，后续版本的授权请联系：happynoom@163.com
+开源版本对学术应用完全免费，使用时请引用出处；商业应用需要获得授权。鉴于keras已经迁移到tensorflow项目，建议使用DeepTrade的tensorflow版本。
 
 ## 致谢
 
